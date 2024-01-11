@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      header {
+        padding: 10px;
+        background-color: #f0f0f0;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 20px;
+      }
+
+      #left-block {
+        flex: 1;
+      }
+
+      #left-block img {
+        width: 100%;
+        height: auto;
+      }
+
+      #right-block {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .right-content {
+        width: 100%;
+        background-color: #f0f0f0;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    </style>
+    <title>Your Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Меню 1</a>
+        <a href="#">Меню 2</a>
+        <a href="#">Меню 3</a>
+        <a href="#">Меню 4</a>
+      </nav>
+      <h1>Название</h1>
+    </header>
+
+    <main>
+      <div id="left-block">
+        <img src="your-image.jpg" alt="Изображение" />
+        <h2>Заголовок</h2>
+      </div>
+
+      <div id="right-block">
+        <div class="right-content">Контент 1</div>
+        <div class="right-content">Контент 2</div>
+        <div class="right-content">Контент 3</div>
+        <div class="right-content">Контент 4</div>
+      </div>
+    </main>
+  </body>
+</html>
